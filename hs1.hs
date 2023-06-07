@@ -14,9 +14,9 @@ fact1 x|x == 0 = 1
 -- key
 roots2::(Double, Double, Double)->(Double, Double)
 roots2 (a, b, c) = (x1, x2) where
-    x1 = (-b + d**0.5) / (2*a)
-    x2 = (-b - d**0.5) / (2*a)
-    d = b**2 - 4*a*c
+   x1 = (-b + d**0.5) / (2*a)
+   x2 = (-b - d**0.5) / (2*a)
+   d = b**2 - 4*a*c
 
 
 roots1 :: (Float, Float, Float) -> (Float, Float)
